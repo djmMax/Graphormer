@@ -6,8 +6,9 @@ from einops import rearrange, repeat
 from fairscale.nn import checkpoint_wrapper
 from torch import Tensor
 
-from perceiver.model.core.utils import Sequential
+from graphormer.models.perceiver.utils import Sequential
 
+# from perceiver.models.core.utils import Sequential
 
 class MultiHeadAttention(nn.Module):
     def __init__(
