@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from transformers import PerceiverLayer
 
-from perceiver.model.core import CrossAttentionLayer, MLP, MultiHeadAttention, SelfAttentionLayer
+from graphormer.models.perceiver import CrossAttentionLayer, MLP, MultiHeadAttention, SelfAttentionLayer
 
 
 def copy_param(src: nn.Parameter, tgt: nn.Parameter):
